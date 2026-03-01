@@ -10,6 +10,9 @@
 ### MAKE ROOT ACCESS
 <pre><code>wget -qO set-root "https://github.com/diah082/vip/releases/latest/download/set-root" && chmod +x set-root && sudo ALLOW_ROOT_PASSWORD=1 SET_ROOT_PASSWORD=1 ./set-root</code></pre>
 
+### MAKE SECURITY ACCESS
+<pre><code>wget -qO banned "https://github.com/diah082/vip/releases/latest/download/fail2ban.sh" && chmod +x banned && ./banned && rm banned</code></pre>
+
 ### INSTALL SCRIPT
 <pre><code>apt update -y && apt install -y wget curl && wget -q https://raw.githubusercontent.com/Diah082/udp-zivpn/main/setup.sh && chmod +x setup.sh && ./setup.sh
 </code></pre>
